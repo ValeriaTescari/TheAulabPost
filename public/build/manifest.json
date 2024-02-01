@@ -1,0 +1,16 @@
+{
+  "public/img/collagecopy.avif": {
+    "file": "assets/collagecopy-vkPWcVef.avif",
+    "src": "public/img/collagecopy.avif"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Qmqzw7fj.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-SEbBKfPx.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

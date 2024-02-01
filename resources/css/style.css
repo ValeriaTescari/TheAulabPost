@@ -1,0 +1,289 @@
+*{
+    font-family: 'Averia Serif Libre', serif;
+}
+
+
+.text{
+  font-size: small;
+}
+
+.logo{
+    width: 150px ;
+}
+
+.navbar{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
+    backdrop-filter: blur(2px);
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(242, 255, 2);
+}
+/* bottoni */
+button{
+    font-weight: 900!important;
+    color: rgb(255, 237, 0)!important;
+    background-color:rgba(120,120, 120, 0.80)!important;
+    border:none!important;
+    border-radius: 10px!important;
+}
+
+button:hover{
+    font-weight: 900!important;
+    color: rgb(120, 120, 120)!important;
+    background-color: rgb(255, 237, 0)!important;
+}
+
+/* a haref */
+.button{
+    font-weight: 900!important;
+    color: rgb(255, 237, 0)!important;
+    background-color:rgba(120,120, 120, 0.80)!important;
+    border:none!important;
+    border-radius: 10px!important;
+}
+
+.button:hover{
+    font-weight: 900!important;
+    color: rgb(120, 120, 120)!important;
+    background-color: rgb(255, 237, 0)!important;
+}
+
+.buttonNeg:hover{
+    font-weight: 900!important;
+    color: rgb(255, 237, 0)!important;
+    background-color:rgba(120,120, 120, 0.80)!important;
+    border:none!important;
+    border-radius: 10px!important;
+}
+
+.buttonNeg{
+    font-weight: 900!important;
+    color: rgb(120, 120, 120)!important;
+    background-color: rgb(255, 237, 0)!important;
+    border-radius: 10px!important;
+}
+
+
+.buttonAcc{
+    font-weight: 900!important;
+    color: rgb(255, 237, 0)!important;
+    background-color:rgba(120,120, 120, 0.80)!important;
+    border:none!important;
+    border-radius: 10px!important;
+}
+
+.buttonAcc:hover{
+    font-weight: 900!important;
+    color: rgb(7, 216, 21)!important;
+    background-color: rgb(255, 237, 0)!important;
+}
+
+.danger{
+    font-weight: 900!important;
+    color: rgb(255, 237, 0)!important;
+    background-color:rgba(196, 10, 10, 0.8)!important;
+    border:none!important;
+    border-radius: 10px!important;
+}
+
+.danger:hover{
+    font-weight: 900!important;
+    color: rgba(196, 10, 10, 0.8)!important;
+    background-color: rgb(255, 237, 0)!important;
+    /* fa-shake */
+}
+
+.ricerca{
+    width: 175px;
+}
+
+.bg-header{
+    background: linear-gradient(0deg, rgb(49, 49, 49) 1%, rgba(255, 255, 255, 0.7) 70%), url(../../public/img/collagecopy.avif);
+    background-size: cover;
+    height: 75vh;
+}
+
+.text-title{
+    font-weight: bold;
+    color: black
+}
+
+.cardCustom{
+    min-width: 280px;
+    min-height: 500px;
+    max-height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.customSize{
+    height: 100vh;
+    background-size: cover;
+}
+
+.customCarrers{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 2%;
+}
+
+.dettImg{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    transition: all 1s ease;
+}
+
+.dettImg:hover{
+    width: 320px;
+    height: 320px;
+    box-shadow: 0 4px 8px 0 rgb(242, 255, 2), 0 6px 10px 0  rgb(252, 252, 252);
+}
+
+.dettCustom{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* input type */
+.form-label span{
+  color: red;
+}
+
+input[type=text]{
+  border: 2px solid rgb(255, 237, 0);
+  border-radius: 4px;
+
+}
+
+input[type=text]:focus{
+    background-color: rgba(255, 238, 0, 0.112)
+}
+  
+  input[type=password]:focus{
+    background-color: rgba(255, 238, 0, 0.112)
+  }
+
+input[type=password]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+   
+  }
+
+input[type=file]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+   
+  }
+
+  input[type=file]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+  }
+
+
+  select[name=category]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+   
+  }
+
+  select[name=category]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+  }
+  
+  input[name=tags]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+   
+  }  
+
+  input[name=tags]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+    
+  }
+
+
+textarea[name=body]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+
+}  
+
+textarea[name=body]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+  }
+
+
+textarea[name=message]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+
+}  
+
+textarea[name=message]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+  }
+
+
+
+input[name=email]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+   
+  }  
+
+  input[name=email]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+  }
+
+
+  select[name=role]{
+    border: 2px solid rgb(255, 237, 0);
+    border-radius: 4px;
+  }
+
+  select[name=role]:focus{
+    background-color: rgba(255, 238, 0, 0.112);
+  }
+
+  .form-control:focus{
+    width: 100%;
+    padding: 6px 12px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    box-shadow: none !important;
+    border:2px solid rgb(255, 237, 0)!important;
+    
+  }
+    
+  select:hover{
+    background-color: rgb(255, 237, 0);
+  }
+
+  option:checked{
+    background-color: orange!important;
+  }
+
+  
+@media screen and(max-width:670px){
+  .customForm{
+    width: 100%;
+  }
+}
+
